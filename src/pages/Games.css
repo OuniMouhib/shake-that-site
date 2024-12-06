@@ -1,0 +1,48 @@
+.ocean-game-container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background : linear-gradient(to bottom, #d3ffff, #053f56);/* Couleur du ciel */
+    overflow: hidden;
+  }
+  
+  .game-title {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 48px;
+    color: white;
+  }
+  
+  .game-zone {
+    position: relative;
+    width: 80vw; /* Largeur de la zone de jeu */
+    height: 70vh; /* Hauteur de la zone de jeu */
+    margin: 0 auto;
+    border: 5px solid #012a52; /* Bordure bleu clair */
+    border-radius: 15px;
+    background: linear-gradient(to top, #001b36, #87CEEB); /* Fond océan */
+    overflow: hidden;
+  }
+  
+  .score-display {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .character {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    background-color: #ff6347; /* Couleur du personnage */
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  

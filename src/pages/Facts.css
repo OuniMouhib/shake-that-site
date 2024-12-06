@@ -1,0 +1,54 @@
+/* Facts.css */
+.facts-wrapper {
+    padding: 40px;
+    background: linear-gradient(to right, #ffffff, #003366); /* White to dark blue gradient */
+    min-height: 100vh; /* Full-screen height */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .facts-title {
+    font-size: 60px; /* Larger font size for emphasis */
+    font-weight: 700; /* Bold and impactful */
+    font-family: 'Poppins', sans-serif; /* Modern and clean font */
+    color: #ffffff; /* White for high contrast */
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
+    margin-bottom: 40px;
+    text-transform: uppercase; /* Full caps for impact */
+  }
+  
+  .facts-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px; /* Limit width for better readability */
+  }
+  
+  .facts-column {
+    width: 48%; /* Split the columns equally */
+  }
+  
+  .fact-item {
+    background: rgba(255, 255, 255, 0.8); /* Semi-transparent white for contrast */
+    border-radius: 15px; /* Rounded corners for a soft look */
+    padding: 20px;
+    margin: 15px 0;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2); /* Elevated effect */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .fact-item:hover {
+    transform: scale(1.05); /* Slight zoom on hover */
+    box-shadow: 0px 12px 20px rgba(0, 0, 0, 0.3); /* Stronger shadow on hover */
+  }
+  
+  .fact-item p {
+    margin: 0;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif; /* Clean and readable font */
+    color: #003366; /* Dark blue for text */
+    line-height: 1.6;
+    text-align: left;
+  }
+  
